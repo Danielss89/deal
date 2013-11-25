@@ -14,5 +14,10 @@
         "evandotpro/edp-superluminal": "dev-master",
         "zf-commons/zfc-base": "0.*",
         "doctrine/doctrine-mongo-odm-module": "0.7.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "Deal": "module/Deal/src"
+        }
     }
 }
